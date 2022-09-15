@@ -1,0 +1,47 @@
+body {
+    background-color: #DDDDDD;
+}
+
+h1, p, .content {
+    margin: initial;
+}
+
+.wrapper {
+    width: 450px;
+    margin: 150px auto;
+    display: flow-root;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+/* 추가 - overflow: hidden; */
+.header-title h1 {
+    border-left: 10px solid #FF1493;
+    margin: 40px 0px;
+    padding-left: 30px;
+    color: #FF1493;
+}
+
+.content {
+    background-color: #EFEFEF;
+    padding: 20px;
+    border-top: 8px solid #DDDDDD;
+    /* 삭제 가능 */
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flow-root;
+}
+
+.content p {
+    background-color: #FFFFFF;
+    border: 5px solid #AAAAAA;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.content p:nth-child(2) {
+    border: 5px solid #1E91FF;
+    color: #1E91FF;
+}
