@@ -1,0 +1,38 @@
+/* Resets */
+p {
+    margin: initial;
+}
+
+/* Layout */
+.wrapper {
+    background-color: bisque;
+    width: 350px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+/* intro button section 위치 잡기 */
+.sign_up {
+    position: absolute;
+}
+
+.intro {
+    position: relative;
+    top: 19px;
+    left: 16px;
+    font-size: 12px;
+}
+
+.login {
+    position: relative;
+    left: 16px;
+    top: 50px;
+    
+}
+
+.detail {
+    position: absolute; 
+    left: 16px;
+    top: 106px;
+    float:inline-end;
+}
