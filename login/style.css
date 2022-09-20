@@ -1,9 +1,9 @@
-/* Resets */
+/* resets */
 p {
     margin: initial;
 }
 
-/* Layout */
+/* layout */
 .wrapper {
     background-color: bisque;
     width: 350px;

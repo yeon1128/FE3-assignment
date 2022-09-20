@@ -1,0 +1,160 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+	/*
+	font-weight: 500;
+	font-weight: 700;
+	*/
+}
+
+/* reset */
+h1, h2, h3, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #51318b;
+}
+
+/* layout */
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.portfolio-header {
+	display: flex;	
+}
+
+.portfolio-header {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.contents:last-child {
+	margin-bottom: 100px;
+}
+
+/* header */
+h1 {
+	font-size: 40px;
+	color: white;
+	position: relative;
+}
+
+.highlight1 {
+	display: block;
+	position: absolute;
+	top: 80px;
+	width: 250px;
+	height: 20px;
+	background-color: orangered;
+	z-index: -1;
+}
+
+.highlight2 {
+	display: block;
+	position: absolute;
+	top: 130px;
+	width: 195px;
+	height: 20px;
+	background-color: orangered;
+	z-index: -1;
+}
+
+.desc {
+	display: flex;
+}
+
+.line {
+	width: 300px;
+	height: 73px;
+	border-bottom: 2px solid #a887e1;
+}
+
+.information {
+	font-size: 14px;
+	line-height: 25px;
+	color: #a887e1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+	padding-right: 250px;
+}
+
+/* article & h2 */
+.contents {
+	margin-bottom: 24px;
+	display: flex;
+	
+}
+
+.contents-title {
+	background-size: cover;
+	opacity: 0.5;
+	width: 26%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contents-title {
+	/* position: relative; */
+	font-size: 30px;
+	color: white;
+	/* z-index: 2; */
+}
+
+/* lists */
+.lists {
+	padding: 24px;
+	width: 74%;
+	background-color: white;
+}
+
+.lists h3 {
+	font-size: 18px;
+	color: #51318b;
+}
+
+.all-list {
+	list-style: none;
+	margin-top: 32px;
+}
+
+.all-list li {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.all-list li::before {
+	display: inline-block;
+	content: '';
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background-color: #bd8fe8;
+	color: blue;
+	border-radius: 50%;
+}
+
+/* 배경이미지 바꿈 */
+.contents:nth-child(1) .contents-title {
+	background-image: url(./images/photo01.png);
+}
+
+.contents:nth-child(2) .contents-title {
+	background-image: url(./images/photo02.png);
+}
+
+.contents:nth-child(3) .contents-title {
+	background-image: url(./images/photo03.png);
+}
+
+/* 2번째 리스트 정렬 바꿈 */
+#reverse {
+	flex-direction: row-reverse;
+}
+
+
