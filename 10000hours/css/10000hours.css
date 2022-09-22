@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+input {
+    padding: 0;
+}
+
+body {
+    background-color: #5B2386;
+}
+
+/* Layout */
+.container {
+    width: 765px;
+    margin: 0 auto;
+}
+
+/* 인라인요소 가운데 정렬 */
+.hours {
+    /* background-color: cornflowerblue; */
+    text-align: center;
+}
+
+/* TODO: header 꾸미기 */
+
+
+/* 시계 배경이미지 가운데 정렬 */
+.hours-laws-title {
+    width: 564px;
+    height: 112px;
+    padding: 60px;
+    /* background-color: aqua; */
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+
+/* 서브타이틀과 간격 벌림 */
+.hours-laws h1 {
+    margin: 46px 0;
+}
+
+/* 1만시간법칙 설명과 간격 벌림 */
+.hours-laws-subtitle {
+    margin-bottom: 78px;
+}
+
+.hours-laws-description {
+    font-family: GmarketSansMedium;
+    font-size: 18px;
+    margin: 0 150px;
+    color: #fff;
+    /* 줄간 간격 조정 */
+    line-height: 28px;
+    /* 큰 따옴표 배경이미지 조정 */
+    background-image: url(../img/quotes.png);
+    background-repeat: no-repeat;
+    /* 적절한 크기로 큰 따옴표 나오게끔 */
+    background-size: contain;
+}
+
+/* 1만 시간의 법칙 강조 */
+.highlight {
+    font-family: GmarketSansBold;
+    font-size: larger;
+}
+
+/* TODO: main 꾸미기 */
+
+
+/* 입력구역 */
+.hours-active-input {
+    margin: 102px auto;
+    line-height: 70px;
+}
+
+.hours-active-input-action {
+    font-family: GmarketSansMedium;
+    color: #fff;
+    font-size: 24px;
+    
+}
+.action-type {
+    font-family: GmarketSansMedium;
+    text-align: center;
+    font-size: 24px;
+    color: #BABCBE;
+    width: 228px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+.action-button {
+    background-color: #FCEE21;
+    font-family: GmarketSansBold;
+    font-size: 24px;
+    color: #5B2386;
+    border: 0;
+    border-radius: 50px;
+    margin: 100px auto;
+    padding: 14px 48px;
+    width: auto;
+}
+
+.action-button::after {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/click.png);
+}
+
+/* 출력구역 */
+
+.hours-active-output {
+    font-family: GmarketSansMedium; 
+    font-size: 24px;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.hours-active-output .highlight-action {
+    font-family: GmarketSansBold;
+    font-size: 72px;
+}
+
+.hours-active-output .hours-active-output-action {
+    
+    line-height: 70px;
+}
+
+.share-button {
+    background-color: #fff;
+    font-family: GmarketSansBold;
+    font-size: 24px;
+    color: #5B2386;
+    border: 0;
+    border-radius: 50px;
+    margin: 100px auto;
+    padding: 14px 48px;
+    width: auto;
+}
+
+/* footer */
+.hours-footer  {
+    font-family: Noto Sans KR;
+    font-size: 12px;
+    color: #fff;
+    line-height: 17.38px;
+}
+
+.hours-footer .img-logo {
+    margin: 10px 0;
+}
+
+.hours-footer .text-copyright {
+    margin-bottom: 70px;
+}
